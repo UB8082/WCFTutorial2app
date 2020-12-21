@@ -23,7 +23,7 @@
   <xs:element name="GetInfoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetInfoResult" nillable="true" type="q2:gettesdata" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetInfoResult" nillable="true" type="q2:gettestdata" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

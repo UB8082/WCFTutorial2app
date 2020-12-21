@@ -7,7 +7,7 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="InsertUser" nillable="true" type="tns:InsertUser" />
-  <xs:complexType name="gettesdata">
+  <xs:complexType name="gettestdata">
     <xs:sequence>
       <xs:element minOccurs="0" name="usertab" nillable="true">
         <xs:complexType>
@@ -24,7 +24,7 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-  <xs:element name="gettesdata" nillable="true" type="tns:gettesdata" />
+  <xs:element name="gettestdata" nillable="true" type="tns:gettestdata" />
   <xs:complexType name="UpdateUser">
     <xs:sequence>
       <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />

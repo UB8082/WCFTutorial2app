@@ -28,7 +28,7 @@ namespace WCFTutorial2
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            ServiceReference1.gettesdata g = new ServiceReference1.gettesdata();
+            ServiceReference1.gettestdata g = new ServiceReference1.gettestdata();
             g = client.GetInfo();
             DataTable dt = new DataTable();
             dt = g.usertab;

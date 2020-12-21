@@ -76,9 +76,9 @@ namespace WCFTutorial2.ServiceReference1 {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="gettesdata", Namespace="http://schemas.datacontract.org/2004/07/WcfService1")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="gettestdata", Namespace="http://schemas.datacontract.org/2004/07/WcfService1")]
     [System.SerializableAttribute()]
-    public partial class gettesdata : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class gettestdata : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
@@ -252,10 +252,10 @@ namespace WCFTutorial2.ServiceReference1 {
         System.Threading.Tasks.Task<string> InsertAsync(WCFTutorial2.ServiceReference1.InsertUser user);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetInfo", ReplyAction="http://tempuri.org/IService1/GetInfoResponse")]
-        WCFTutorial2.ServiceReference1.gettesdata GetInfo();
+        WCFTutorial2.ServiceReference1.gettestdata GetInfo();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetInfo", ReplyAction="http://tempuri.org/IService1/GetInfoResponse")]
-        System.Threading.Tasks.Task<WCFTutorial2.ServiceReference1.gettesdata> GetInfoAsync();
+        System.Threading.Tasks.Task<WCFTutorial2.ServiceReference1.gettestdata> GetInfoAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Update", ReplyAction="http://tempuri.org/IService1/UpdateResponse")]
         string Update(WCFTutorial2.ServiceReference1.UpdateUser u);
@@ -305,11 +305,11 @@ namespace WCFTutorial2.ServiceReference1 {
             return base.Channel.InsertAsync(user);
         }
         
-        public WCFTutorial2.ServiceReference1.gettesdata GetInfo() {
+        public WCFTutorial2.ServiceReference1.gettestdata GetInfo() {
             return base.Channel.GetInfo();
         }
         
-        public System.Threading.Tasks.Task<WCFTutorial2.ServiceReference1.gettesdata> GetInfoAsync() {
+        public System.Threading.Tasks.Task<WCFTutorial2.ServiceReference1.gettestdata> GetInfoAsync() {
             return base.Channel.GetInfoAsync();
         }
         
